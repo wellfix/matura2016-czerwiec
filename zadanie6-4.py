@@ -15,7 +15,7 @@ def zamiana(a , s):
 suma = 0
 
 for x in plik:
-    s = int(x[len(x)-1])
+    s = int(x[-1])
     x = x[:-1]
     if s == 8:
         suma+= zamiana(x, s)

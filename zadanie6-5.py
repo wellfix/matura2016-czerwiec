@@ -18,7 +18,7 @@ min = [248 ,111110002]
 
 for x in plik:
     kod = x
-    s = int(x[len(x)-1])
+    s = int(x[-1])
     x = x[:-1]
     decX = zamiana(x, s)
     if decX > max[0]:
